@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+li { /* yazılar */
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* a linkler */
+a {
+    color: White;
+    text-decoration: none;
+    /* background-color: #dddddd; */
+    display: block;
+    padding: 5px;
+    
+}
+
+a:hover {
+    color: rgb(132, 106, 224) /* mouseyi menüye getirdiğimizde gösterilen renk */
+
+}
+
+
+
+.image-grid {
+    width: %100;
+    padding: 30px;
+    display: block;
+
+    
+}
+
+.box {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+
+    padding:10px;
+    transition: 0.5s;
+    float: left;
+}
+
+.box img {border-radius: 6px;}
+
+.box:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
